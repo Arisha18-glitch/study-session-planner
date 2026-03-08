@@ -5,94 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Session Planner</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">📚 Study Planner</div>
-            <nav class="nav">
-                <a href="#planner">Planner</a>
-                <a href="#stats">Stats</a>
-            </nav>
-        </div>
-    </header>
-
-    <!-- HERO -->
-    <section class="hero" id="hero">
-        <div class="container">
-            <h1>Plan Your Study Sessions</h1>
-            <p>Organize, track, and ace your study goals</p>
-        </div>
-    </section>
-
-    <!-- ADD SESSION FORM -->
-    <section class="planner" id="planner">
-        <div class="container">
-            <h2>Add Study Session</h2>
-            <form id="session-form">
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" placeholder="e.g. Data Structures" required>
-                </div>
-                <div class="form-group">
-                    <label for="date">Date</label>
-                    <input type="date" id="date" required>
-                </div>
-                <div class="form-group">
-                    <label for="duration">Duration (hours)</label>
-                    <input type="number" id="duration" min="0.5" step="0.5" placeholder="e.g. 2" required>
-                </div>
-                <div class="form-group">
-                    <label for="notes">Notes</label>
-                    <textarea id="notes" placeholder="What to focus on..."></textarea>
-                </div>
-                <button type="submit" class="btn">Add Session</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- SESSION LIST -->
-    <section class="sessions" id="sessions">
-        <div class="container">
-            <h2>Your Study Sessions</h2>
-            <div id="session-list" class="session-list">
-            </div>
-        </div>
-    </section>
-
-    <!-- STATS -->
-    <section class="stats" id="stats">
-        <div class="container">
-            <h2>Your Stats</h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <h3 id="total-sessions">0</h3>
-                    <p>Total Sessions</p>
-                </div>
-                <div class="stat-card">
-                    <h3 id="total-hours">0</h3>
-                    <p>Total Hours</p>
-                </div>
-                <div class="stat-card">
-                    <h3 id="completed-sessions">0</h3>
-                    <p>Completed</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Study Session Planner | Built by Team</p>
-        </div>
-    </footer>
-
-    <script src="js/app.js"></script>
+    <h1>Study Session Planner</h1>
 </body>
 
 </html>
